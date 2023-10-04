@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'AI Power',
   description: 'Harness The Power of AI to 10x your productivity',
 }
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
+export const runtime = 'nodejs';
 
 export default function RootLayout({
   children,
